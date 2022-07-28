@@ -56,4 +56,7 @@
   .popular-course {
     width: 75%;
   }
+  .companies {
+    display: none;
+  }
 }
