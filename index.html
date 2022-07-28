@@ -303,7 +303,63 @@
         <button class="btn btn-info text-light px-5 py-2">View All</button>
       </section>
       <!-- Ready to join bonus section  -->
-      <section></section>
+      <section
+        class="join-section bg-info d-flex align-items-center justify-content-around rounded"
+      >
+        <div class="text-light text-center join-heading">
+          <h1>Ready to Join?</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
+            in ex laudantium.
+          </p>
+        </div>
+        <!-- button modal -->
+        <button
+          type="button"
+          class="btn btn-light text-info"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Register Now
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Register Here
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Thank You for choosing DSAwiz for your journey to betterment
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Frequently asked questions section  -->
       <section
         class="my-5 d-flex flex-column justify-content-center align-items-center"

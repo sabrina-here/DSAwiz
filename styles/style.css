@@ -26,6 +26,14 @@
 .popular-course-title p {
   font-size: 2vw;
 }
+/* join us bonus section  */
+.join-section {
+  width: 100%;
+  height: 238px;
+}
+.join-section .join-heading {
+  width: 40%;
+}
 /* frequently asked questions section  */
 .heading h1 {
   font-size: 3.5vw;
