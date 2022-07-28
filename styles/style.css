@@ -16,6 +16,16 @@
 .darkened-img img {
   filter: brightness(50%);
 }
+/* popular course section  */
+.popular-course-title {
+  width: 50%;
+}
+.popular-course-title h1 {
+  font-size: 3.5vw;
+}
+.popular-course-title p {
+  font-size: 1.5vw;
+}
 /* footer  */
 .icons .fa-brands {
   font-size: 2rem;
@@ -32,5 +42,8 @@
 @media screen and (max-width: 992px) {
   .banner .banner-text {
     top: 25%;
+  }
+  .popular-course {
+    width: 75%;
   }
 }
