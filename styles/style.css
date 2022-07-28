@@ -24,7 +24,17 @@
   font-size: 3.5vw;
 }
 .popular-course-title p {
-  font-size: 1.5vw;
+  font-size: 2vw;
+}
+/* frequently asked questions section  */
+.heading h1 {
+  font-size: 3.5vw;
+}
+.heading p {
+  font-size: 2vw;
+}
+.accordion {
+  width: 50%;
 }
 /* footer  */
 .icons .fa-brands {
