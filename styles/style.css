@@ -1,3 +1,15 @@
+/* header  */
+.banner .banner-text {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 60%;
+  z-index: 20;
+}
+.darkened-img img {
+  filter: brightness(50%);
+}
+/* footer  */
 .icons .fa-brands {
   font-size: 2rem;
 }
