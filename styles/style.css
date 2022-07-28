@@ -1,10 +1,17 @@
 /* header  */
+
 .banner .banner-text {
   position: absolute;
   width: 50%;
   left: 25%;
-  top: 60%;
+  top: 50%;
   z-index: 20;
+}
+.banner .banner-text h1 {
+  font-size: 3.5vw;
+}
+.banner .banner-text p {
+  font-size: 1.5vw;
 }
 .darkened-img img {
   filter: brightness(50%);
@@ -12,4 +19,18 @@
 /* footer  */
 .icons .fa-brands {
   font-size: 2rem;
+}
+
+/* responsive for mobile   */
+/* @media only screen and (max-width: 576px) {
+  .banner .banner-text {
+    top: 5%;
+  }
+} */
+
+/* responsive for tablet */
+@media screen and (max-width: 992px) {
+  .banner .banner-text {
+    top: 25%;
+  }
 }
